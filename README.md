@@ -9,7 +9,7 @@
 
 증가 및 감소 연산은 여러 단계로 이루어지므로 두 스레드가 동시에 실행될 경우 Race Condition이 발생할 수 있다.
 
-본 과제에서는 공유 변수 x를 버퍼의 현재 사용량(Buffer Occupancy)으로 간주하고 Producer-Consumer 문제로 변환하여 Race Condition을 해결하였다.
+본 과제에서는 공유 변수 x를 버퍼의 크기로 간주하고 Producer-Consumer 문제로 변환하여 Race Condition을 해결하였다.
 
 또한 다음 조건을 만족하도록 구현하였다.
 
@@ -169,7 +169,7 @@ Condition Variable 방식과 Semaphore 방식 모두 Race Condition을 제거하
 
 ## 8. 결론 및 느낀점
 
-이번 실습을 통해 Race Condition이 발생하는 원인과 이를 해결하기 위한 동기화 기법을 학습할 수 있었다.
+이를 통해 Race Condition이 발생하는 원인과 이를 해결하기 위한 동기화 기법을 학습할 수 있었다.
 
 Condition Variable과 Semaphore 모두 Producer-Consumer 문제를 해결할 수 있었으며, 공유 변수 x에 대한 상호 배제를 통해 데이터의 일관성을 유지할 수 있었다.
 
