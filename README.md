@@ -150,8 +150,8 @@ Producer와 Consumer는 각각 동일한 횟수의 연산을 수행하도록 설
 
 | Method | Execution Time (sec) |
 |----------|----------|
-| Condition Variable | 0.201597 |
-| Semaphore | 0.197716 |
+| Condition Variable | 0.160819 |
+| Semaphore | 0.332894 |
 
 --------------------------------------------------
 
