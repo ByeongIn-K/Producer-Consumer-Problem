@@ -64,6 +64,8 @@ Producer가 값을 증가시키면 다시 실행된다.
 
 또한 mutex를 사용하여 공유 변수 x에 대한 상호 배제를 보장하였다.
 
+<img width="1848" height="896" alt="Image" src="https://github.com/user-attachments/assets/cd217f1b-0309-441d-89cd-c4991ffedb8d" />
+
 ### 특징
 
 - Race Condition 제거
@@ -108,6 +110,8 @@ Consumer는
 
 이를 통해 x가 0보다 작아지거나 30보다 커지는 상황을 방지하였다.
 
+<img width="1848" height="896" alt="Image" src="https://github.com/user-attachments/assets/bf0256b4-2c7d-4b8f-8410-98c95f770d9c" />
+
 ### 특징
 
 - Race Condition 제거
@@ -147,6 +151,8 @@ Producer와 Consumer는 각각 동일한 횟수의 연산을 수행하도록 설
 --------------------------------------------------
 
 ## 6. 성능 측정 결과
+
+<img width="583" height="137" alt="Image" src="https://github.com/user-attachments/assets/e8156619-d4a1-4ca8-9dc4-8a3f0224079c" />
 
 | Method | Execution Time (sec) |
 |----------|----------|
